@@ -3,12 +3,12 @@ package com.douyin;
 import com.douyin.database.IndexedDB;
 import com.douyin.friend.Friend;
 import com.douyin.friend.Group;
-import com.douyin.official.account.context.VideoContext;
-import com.douyin.official.account.context.OfficialAccountContext;
-import com.douyin.official.account.entity.Article;
-import com.douyin.official.account.entity.Comment;
-import com.douyin.official.account.entity.Like;
-import com.douyin.official.account.entity.OfficialAccount;
+import com.douyin.video.account.context.VideoContext;
+import com.douyin.video.account.context.OfficialAccountContext;
+import com.douyin.video.account.entity.Article;
+import com.douyin.video.account.entity.Comment;
+import com.douyin.video.account.entity.Like;
+import com.douyin.video.account.entity.OfficialAccount;
 
 /**
  * 单例，整个应用程序的管理类。其他模块获取到这一单例对象后，可以获取适用于整个应用程序的数据。

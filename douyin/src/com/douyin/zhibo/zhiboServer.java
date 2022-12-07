@@ -28,7 +28,7 @@ public class zhiboServer {
         Session is = sf.createSession(anchor);
         Session gs = sf.createSession(zhibojian);
         Scanner in = new Scanner(System.in);
-        System.out.println("请选择直播功能:1-送礼物。 2-发送评论 3-退出系统");
+        System.out.println("请选择直播功能:1-送礼物。 2-发送评论 3-退出系统 4-退出直播");
         while(in.hasNextDouble()) {
             Integer x = in.nextInt();
             if(x == 4) break;
@@ -52,8 +52,7 @@ public class zhiboServer {
                     System.out.println("非法输入");
                     break;
             }
-            System.out.println("请选择直播功能:1-送礼物。 2-发送评论 3-退出系统");
+            System.out.println("请选择直播功能:1-送礼物。 2-发送评论 3-退出系统 4-退出直播");
         }
-        in.close();
     }
 }
